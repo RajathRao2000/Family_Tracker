@@ -13,7 +13,7 @@
 # Screenshots
 <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/SplashScreen.png" width="18%"></img> <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/loginPage.png" width="18%"></img> <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/SignUpPage.png" width="18%"></img> <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/HomePage.png" width="18%"></img> <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/OptionsMenu.png" width="18%"></img> <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/CurrentLocation.png" width="18%"></img> <img src="https://github.com/RajathRao2000/Family_Tracker/blob/master/Screenshots/FriendsLocation.png" width="18%"></img> 
 
-#References
+# References
 1. https://github.com/Roshannahak/Gps-Helper
 2. https://www.youtube.com/watch?v=_xUcYfbtfsI&t=171s
 3. https://www.youtube.com/@CodingwithT
