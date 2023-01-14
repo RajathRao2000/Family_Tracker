@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goToLoginPageXml"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:backgroundTintMode="src_atop" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#11698E"
+        app:cardBackgroundColor="?android:attr/colorBackground"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textColor="#1566e0"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="137dp"
+                tools:layout_editor_absoluteY="60dp" />
+
+            <EditText
+                android:id="@+id/ET_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:paddingStart="8dp"
+                android:textColorHint="#1566e0"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+            <EditText
+                android:id="@+id/ET_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/enter_phone_no"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:paddingStart="8dp"
+                android:textColorHint="#1566e0"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="327dp" />
+
+            <EditText
+                android:id="@+id/ET_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/enter_your_e_mail"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:paddingStart="8dp"
+                android:textColorHint="#1566e0"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="261dp" />
+
+            <EditText
+                android:id="@+id/ET_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/enter_password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingStart="8dp"
+                android:textColorHint="#1566e0"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="393dp" />
+
+            <Button
+                android:id="@+id/registerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#1566e0"
+                android:text="Sign Up"
+                app:cornerRadius="20dp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="475dp" />
+
+            <Button
+                android:id="@+id/goToLoginPageBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_login_page"
+                app:cornerRadius="20dp"
+                android:backgroundTint="#1566e0"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="540dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
