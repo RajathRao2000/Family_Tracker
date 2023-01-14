@@ -1,7 +1,5 @@
 # Family_Tracker-App (Android, Firebase, Bing Maps API)
-**Family Tracker** app will **find your family, friends, and mobile phone** in **Real-Time**. this app is also the perfect GPS tracker for kids. You can know if they’ve arrived at or left school, as well as get up-to-date information about their location by sending real-time requests.
-Each user will have a **unique circle code** as well as a circle. Through which, other users
-will be able to join the circle.
+**Family Tracker** app will help you track your curret location as well as **find your family, friends**. The homepage shows your **current address** as well as **coordintes**. Each user will have a **unique circle code** as well as a circle. Through which, other users will be able to join the circle.
 
 ### Features of GPS helper app:
 1. **Login** : User already have an account then they will login.
